@@ -1,8 +1,3 @@
-dev
-
-remove
-
-master
 # -----------
 
 ## 0X
