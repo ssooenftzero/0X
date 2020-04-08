@@ -22,7 +22,7 @@
 ==============================================
 ## 重点来了
 
-### 派安盈账号：[注册地址]()
+### 派安盈账号：[注册地址](http://share.payoneer.com/nav/SsfKQ7_A6SaJjU9iUozIlZAick0vXYhG1IWBt83MK4MZ3RKHUF30Kh8AgWza9sWkzX-NlHiza0SNg3Tmr8R5Kw2)
 ==============================================
 ## *注意*---
 
@@ -36,3 +36,8 @@
 
 # 告诉客服"我需要一个Community Federal Savings Bank（美国社区联邦储蓄银行）的美元账户，用来绑定PayPal（贝宝）收款"，即可申请到Community Federal Savings Bank的账户。
 
+#
+
+#
+
+##
