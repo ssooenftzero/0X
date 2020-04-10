@@ -14,7 +14,7 @@
 
 ## 创建实例，详情请跟着视频做。
 ------------------------------------
-## SSH链接实例[视频中用到的xshell链接](链接：https://pan.baidu.com/s/1z_gB9DUuAQYGDL8eVyrX1w)提取码：lvte 
+## SSH链接实例[视频中用到的xshell链接](https://pan.baidu.com/s/1z_gB9DUuAQYGDL8eVyrX1w)提取码：lvte 
 
 ## trojan一键脚本，开启TLS1.3，系统支持centos7+/debian9+/ubuntu16+
 
