@@ -22,11 +22,11 @@
 
 ## 申请步骤（美区为例）
 
-### 1.在全局美国IP地址下，来到苹果[官方网站](apple.com)
+### 1.在全局美国IP地址下，来到苹果[官方网站](https://www.apple.com/)
 
 ### 2.页面下拉，观察网站所在区域是否为United States（与你所申请的区域相吻合）
 
-### 3.官网底部找到[Manage Your Apple ID](appleid.apple.com)，进入点击Create Your Apple ID
+### 3.官网底部找到[Manage Your Apple ID](https://appleid.apple.com)，进入点击Create Your Apple ID
 
 ### 4.填入美国人信息[美国人身份生成网站](https://www.fakenamegenerator.com/gen-random-us-us.php)，名字可自行更改，邮件填写自己的邮件地址。
 
