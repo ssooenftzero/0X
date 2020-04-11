@@ -30,4 +30,4 @@
 
 ### 4.填入美国人信息[美国人身份生成网站](https://www.fakenamegenerator.com/gen-random-us-us.php)，名字可自行更改，邮件填写自己的邮件地址。
 
-### 5.
+### 5.然后跟着注册就行了。
