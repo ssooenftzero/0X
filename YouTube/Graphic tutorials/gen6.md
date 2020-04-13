@@ -30,9 +30,13 @@
 
 ## 下期教大家fiddler抓包下载旧版tiktok，绝对正版软件的旧版，不是破解版！！！
 
+## 本人现在使用AppStore最新版tiktok(15.5.6)，仍能完美使用。
+
+## ![tiktok版本](https://raw.githubusercontent.com/ssooenftzero/0X/master/YouTube/icon/tiktok.png)
+
 # 使用QuantumultX 解锁 TikTok 区域限制
 
-## 本人现在使用AppStore最新版tiktok(15.5.6)，仍能完美使用。
+
 
 
 
