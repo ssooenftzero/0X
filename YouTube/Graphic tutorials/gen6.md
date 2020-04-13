@@ -18,6 +18,8 @@
 
 ## &emsp;&emsp;感谢[NobyDa](https://github.com/NobyDa)
 
+## &emsp;&emsp;感谢[毒奶](https://limbopro.xyz)
+
 # -----------------------------------------------------------
 
 # 解锁 Tiktok 操作前必看
