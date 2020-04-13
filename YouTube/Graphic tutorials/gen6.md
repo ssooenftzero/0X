@@ -85,9 +85,9 @@ hostname = api*.tiktokv.com, api*.musical.ly, api*.amemv.com, aweme*.snssdk.com
 
 ## 2.开启 Rewrite & MinM ；
 
-#QuantumultX Tiktok 换区操作
+# QuantumultX Tiktok 换区操作
 
-#如想切换到其他地区，进入QuantumultX，点击页面右下角三菱按钮，找到Rewrite模块，点击添加，复制
+# 如想切换到其他地区，进入QuantumultX，点击页面右下角三菱按钮，找到Rewrite模块，点击添加，复制
 
 ```
 (?<=(carrier|account|sys)_region=)CN url 307 JP
