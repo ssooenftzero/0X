@@ -42,9 +42,9 @@
 
 ### 分别复制脚本配置文件链接
 
-#### https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf（NobyDa）
+#### （NobyDa） https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf
 
-#### https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf（花姐）
+#### （花姐） https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf
 
 ### 进入QuantumultX，点击页面右下角三菱按钮，找到Rewrite模块，点击引用，粘贴刚刚复制的链接，右上角点击确定，点击全部同步就可以下载脚本配置文件
 
@@ -55,18 +55,23 @@
 (?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 14.0.0
 ```
 
-## 美区为14.0.0，港区则将代码14.0.0改为8.4.0即可；
+## 美区为14.0.0，港区则将代码14.0.0改为8.4.0即可
 
-2.复制api*.tiktokv.com, api*.musical.ly, api*.amemv.com, aweme*.snssdk.com，进入QuantumultX，点击页面右下角三菱按钮，找到配置文件模块，点击编辑，滑至页面末尾；（注意：因为在第0步时，在Rewrite模块引用的远程脚本配置文件js.con中包含了此项，所以这一步可以省略，大致明白原理即可）
+### 复制api*.tiktokv.com, api*.musical.ly, api*.amemv.com, aweme*.snssdk.com，
 
-找到[mitm]，在 hostname 后面粘贴，粘贴后效果大致如下：
+### 进入QuantumultX，点击页面右下角三菱按钮，找到配置文件模块，点击编辑，滑至页面末尾；
 
+### （注意：因为在第0步时，在Rewrite模块引用的远程脚本配置文件js.con中包含了此项，所以这一步可以省略，大致明白原理即可）
+
+### 找到[mitm]，在 hostname 后面粘贴，粘贴后效果大致如下：
+
+```
 hostname = api*.tiktokv.com, api*.musical.ly, api*.amemv.com, aweme*.snssdk.com
-*注意， ;hostname 前面的; 符号（注释符号），如果有这个符号，务必删掉；
-*这一步其实跟Shadowrocket/Surge配置证书步骤等是一模一样的；
-*在配置文件模块-编辑-下可以看到你所有配置的文本配置（即以文本样式进行配置），包括你的节点订阅，分流规则等等；
+```
 
-第二步，生成证书
+#### 注意， ;hostname 前面的; 符号（注释符号），如果有这个符号，务必删掉；这一步其实跟Shadowrocket/Surge配置证书步骤等是一模一样的；在配置文件模块-编辑-下可以看到你所有配置的文本配置（即以文本样式进行配置），包括你的节点订阅，分流规则等等；
+
+# 生成证书
 1.进入QuantumultX，点击页面右下角三菱按钮，找到MinM模块，点击生成证书，提示生成成功，点击安装证书此时会跳转至 Safari，提示此网站...下载一个配置描述文件。您要允许吗？，点击允许，网页提示已下载描述文件；
 
 2.进入 iOS 系统设置- 通用-描述文件-已下载的描述文件-选中，并安装，输入密码...完成描述文件安装；
