@@ -24,7 +24,7 @@
 
 ## 请使用正版圈x软件，如何查看正版
 
-## 如下：
+## 如下【绿色对勾为正版标识】：
 
 ## ![正版圈x标识](https://raw.githubusercontent.com/ssooenftzero/0X/master/YouTube/icon/zbbs.png)
 
