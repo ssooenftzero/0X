@@ -12,43 +12,43 @@
 
 # iOS 使用解锁 TikTok （国际版）区域限制【QuantumultX 篇】
 
-## 文章开始
+## &emsp;&emsp;文章开始
 
-## 感谢[花姐](https://github.com/ConnersHua/Profiles)
+## &emsp;&emsp;感谢[花姐](https://github.com/ConnersHua/Profiles)
 
-## 感谢[NobyDa](https://github.com/NobyDa)
+## &emsp;&emsp;感谢[NobyDa](https://github.com/NobyDa)
 
 # 解锁 Tiktok 操作前必看
 
-## iMazing 备份TikTok，避免后续不小心更新Tiktok；
+## &emsp;&emsp;iMazing 备份TikTok，避免后续不小心更新Tiktok；
 
-## 请使用正版圈x软件，如何查看正版
+## &emsp;&emsp;请使用正版圈x软件，如何查看正版
 
-## 如下【绿色对勾为正版标识】：
+## &emsp;&emsp;如下【绿色对勾为正版标识】：
 
-## ![正版圈x标识](https://raw.githubusercontent.com/ssooenftzero/0X/master/YouTube/icon/zbbs.png)
+## &emsp;&emsp;![正版圈x标识](https://raw.githubusercontent.com/ssooenftzero/0X/master/YouTube/icon/zbbs.png)
 
-## 下期教大家fiddler抓包下载旧版tiktok，绝对正版软件的旧版，不是破解版！！！
+## &emsp;&emsp;下期教大家fiddler抓包下载旧版tiktok，绝对正版软件的旧版，不是破解版！！！
 
-## 本人现在使用AppStore最新版tiktok(15.5.6)，仍能完美使用。
+## &emsp;&emsp;本人现在使用AppStore最新版tiktok(15.5.6)，仍能完美使用。
 
-## ![tiktok版本](https://raw.githubusercontent.com/ssooenftzero/0X/master/YouTube/icon/tiktok.png)
+## &emsp;&emsp;![tiktok版本](https://raw.githubusercontent.com/ssooenftzero/0X/master/YouTube/icon/tiktok.png)
 
 # 使用QuantumultX 解锁 TikTok 区域限制
 
-## 详细步骤
+## &emsp;详细步骤
 
-### 第一步，下载脚本配置文件
+### &emsp;&emsp;第一步，下载脚本配置文件
 
-### 分别复制脚本配置文件链接
+### &emsp;&emsp;分别复制脚本配置文件链接
 
 #### （NobyDa） https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf
 
 #### （花姐） https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf
 
-### 进入QuantumultX，点击页面右下角三菱按钮，找到Rewrite模块，点击引用，粘贴刚刚复制的链接，右上角点击确定，点击全部同步就可以下载脚本配置文件
+### &emsp;&emsp;进入QuantumultX，点击页面右下角三菱按钮，找到Rewrite模块，点击引用，粘贴刚刚复制的链接，右上角点击确定，点击全部同步就可以下载脚本配置文件
 
-### 再次进入QuantumultX，点击页面右下角三菱按钮，找到配置文件-点击编辑-找到[rewrite_local]，并在下方粘贴以下代码；
+### &emsp;&emsp;再次进入QuantumultX，点击页面右下角三菱按钮，找到配置文件-点击编辑-找到[rewrite_local]，并在下方粘贴以下代码；
 
 ```python
 (?<=(carrier|sys)_region=)CN url 307 JP
