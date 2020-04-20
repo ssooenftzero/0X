@@ -32,7 +32,7 @@
 
 ### 		4、iOS平台：
 
-### 				下载地址：AppStore软件商店
+### 				下载地址：AppStore软件商店[美区id](https://mp.weixin.qq.com/s/dGTNW_HDx6MSZ7Tm-HkJ-A)
 
 ### 支持软件：Shadowrocket；Quantumult X；Pharos
 
