@@ -6,7 +6,7 @@
 
 ### Shadowrocket订阅：http://suo.im/5I8QtT
 
-### Quantumult X订阅：https://dove.589669.xyz/all2quanx?tfo=1&udp=1&emoji=2&sub=http%3A%2F%2Fsuo.im%2F6jFPT6
+### Quantumult X订阅：https://sub.bianyuan.xyz/sub?target=quanx&url=https%3A//raw.githubusercontent.com/ssooenftzero/0X/master/Tube/muma/subx&emoji=true&fdn=true
 
 ### Quantumult X用户使用我的配置文件已经内置节点
 
