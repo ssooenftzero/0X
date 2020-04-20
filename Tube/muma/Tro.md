@@ -16,19 +16,19 @@
 
 ### 				[软件下载地址](https://hqkjw.lanzous.com/ibmgyjc)
 
-### 				使用方法：见视频教程
+### 				[使用方法](https://github.com/ssooenftzero/0X/blob/master/Tube/muma/qt5.md)
 
 ### 		2、Mac平台：
 
 ### 				[软件下载地址](https://hqkjw.lanzous.com/ibmgzod)
 
-### 				使用方法：见视频教程
+### 				使用方法
 
 ### 		3、Android：
 
 ### 				[软件下载地址](https://hqkjw.lanzous.com/ibmgqaf)
 
-### 				使用方法：打开软件，对应填写即可。
+### 				[使用方法](https://github.com/ssooenftzero/0X/blob/master/Tube/muma/Android.md)
 
 ### 		4、iOS平台：
 
