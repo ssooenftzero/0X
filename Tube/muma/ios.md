@@ -14,9 +14,9 @@
 
 ### [server_local]字段下添加
 
-#### trojan=hk1.hqkjw.xyz:443, password=hk1.hqkjw.xyz, over-tls=true, tls-verification=true, tls13=true, fast-open=true, udp-relay=true, tag=[好奇科技坞]
+#### trojan=hk1.hqkjw.xyz:443, password=hk1.hqkjw.xyz, over-tls=true, tls-verification=true, tls13=true, fast-open=true, udp-relay=true, tag=[好奇科技坞HK]
 
-#### trojan=sjp1.hqkjw.xyz:443, password=sjp1.hqkjw.xyz, over-tls=true, tls-verification=true, tls13=true, fast-open=true, udp-relay=true, tag=[好奇科技坞]
+#### trojan=sjp1.hqkjw.xyz:443, password=sjp1.hqkjw.xyz, over-tls=true, tls-verification=true, tls13=true, fast-open=true, udp-relay=true, tag=[好奇科技坞SJP]
 
 # ========================
 
