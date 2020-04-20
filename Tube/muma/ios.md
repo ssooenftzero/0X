@@ -7,3 +7,17 @@
 ### Shadowrocket订阅：http://suo.im/5I8QtT
 
 ### Quantumult X订阅：https://dove.589669.xyz/all2surge?sub=https%3A%2F%2Fraw.githubusercontent.com%2Fssooenftzero%2F0X%2Fmaster%2FTube%2Fmuma%2Fsub
+
+
+
+# ========================
+
+# [订阅YouTube](https://www.youtube.com/channel/UCS6QM2n96qXmqURNikf3ceA?sub_confirmation=1)
+
+# [关注微信公众号](https://raw.githubusercontent.com/ssooenftzero/0X/master/Tube/icon/wxgzh.png)
+
+# 获得更多精彩内容
+
+# 本页面持续更新，记得更新哟！
+
+# ========================
