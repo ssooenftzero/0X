@@ -22,7 +22,7 @@
 
 ### 				[软件下载地址](https://hqkjw.lanzous.com/ibmgzod)
 
-### 				使用方法
+### 				[使用方法](https://github.com/ssooenftzero/0X/blob/master/Tube/muma/qt5.md)
 
 ### 		3、Android：
 
