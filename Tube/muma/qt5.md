@@ -1,5 +1,7 @@
 # Win&Mac平台均可使用，其他平台有[更快捷的方式](http://mp.weixin.qq.com/s?__biz=MzI3NjI0OTA0NQ==&mid=100000150&idx=1&sn=c72c4857c4137d9fad3cf3f0dba1f75a&chksm=6b79212c5c0ea83ac7d1db6c4663d9ce5d753ad5dcc390f39d8d28867bf9e00af4ec884a84f6#rd)
 
+## 下载软件之后打开软件-首界面-连接-添加-从剪贴板添加url-ok
+
 # ------------------------
 
 # ①：trojan://hk1.hqkjw.xyz@hk1.hqkjw.xyz:443# [好奇科技坞]
