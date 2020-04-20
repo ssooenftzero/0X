@@ -32,6 +32,8 @@
 
 ### 		4、iOS平台：
 
-### 				下载地址：AppStore
+### 				下载地址：AppStore软件商店
 
-### 				使用方法：见视频教程
+### 支持软件：Shadowrocket；Quantumult X；Pharos
+
+### 				[使用方法](https://github.com/ssooenftzero/0X/blob/master/Tube/muma/ios.md)
