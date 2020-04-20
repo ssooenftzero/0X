@@ -10,6 +10,14 @@
 
 ### Quantumult X用户使用我的配置文件已经内置节点
 
+### 或者手动在
+
+### [server_local]字段下添加
+
+#### trojan=hk1.hqkjq.xyz:443, password=hk1.hqkjq.xyz, over-tls=true, tls-verification=true, tls13=true, fast-open=true, udp-relay=true, tag=[好奇科技坞]
+
+#### trojan=sjp1.hqkjq.xyz:443, password=sjp1.hqkjq.xyz, over-tls=true, tls-verification=true, tls13=true, fast-open=true, udp-relay=true, tag=[好奇科技坞]
+
 # ========================
 
 # [订阅YouTube](https://www.youtube.com/channel/UCS6QM2n96qXmqURNikf3ceA?sub_confirmation=1)
