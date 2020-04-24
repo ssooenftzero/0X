@@ -50,7 +50,27 @@ redir https://域名{uri} 301
 
 #### 静态网页模板放置
 
-##### **在var/www/路径下放置网页**
+##### **1.在var/www/路径下放置网页**
+
+```
+sftp手动放置
+```
+
+#### 2.全命令操作（推荐）
+
+```
+cd /var
+
+ls
+
+wget https://www.free-css.com/assets/files/free-css-templates/download/page253/estateagency.zip
+
+unzip estateagency.zip
+
+mv 解压目录 www
+```
+
+
 
 ##### 其他caddy命令
 
