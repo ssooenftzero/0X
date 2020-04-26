@@ -1,5 +1,3 @@
-#
-
 # 写在前面
 
 ## &emsp;联系方式：  
@@ -8,7 +6,6 @@
 
 ## &emsp;&emsp;<u>[YouTube](https://www.youtube.com/channel/UCS6QM2n96qXmqURNikf3ceA?view_as=subscriber)</u>
 ==============================================		
-#
 
 # 注册外区Apple ID保姆级教程
 
