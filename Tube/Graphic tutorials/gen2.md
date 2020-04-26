@@ -1,5 +1,3 @@
-#
-
 # 写在前面
 
 ## &emsp;联系方式：  
@@ -8,7 +6,6 @@
 
 ## &emsp;&emsp;<u>[YouTube](https://www.youtube.com/channel/UCS6QM2n96qXmqURNikf3ceA?view_as=subscriber)</u>
 ==============================================		
-#
 
 # 今天我就教大家不要信用卡拿到谷歌云的300$！
 ==============================================
@@ -37,8 +34,7 @@
 # 告诉客服"我需要一个Community Federal Savings Bank（美国社区联邦储蓄银行）的美元账户，用来绑定PayPal（贝宝）收款"，
 
 # 即可申请到Community Federal Savings Bank的账户。
-----------------------------------------------
-#
+
 
 # 三个准备工作都完成后，再开始注册谷歌云！
 
