@@ -30,13 +30,13 @@
 
 ## &emsp;&emsp;如下【绿色对勾为正版标识】：
 
-## &emsp;&emsp;![正版圈x标识](https://raw.githubusercontent.com/ssooenftzero/0X/master/YouTube/icon/zbbs.png)
+## &emsp;&emsp;![正版圈x标识](https://raw.githubusercontent.com/ssooenftzero/0X/master/Tube/icon/zbbs.png)
 
 ## &emsp;&emsp;下期教大家fiddler抓包下载旧版tiktok，绝对正版软件的旧版，不是破解版！！！
 
 ## &emsp;&emsp;本人现在使用AppStore最新版tiktok(15.5.6)，仍能完美使用。
 
-## &emsp;&emsp;![tiktok版本](https://raw.githubusercontent.com/ssooenftzero/0X/master/YouTube/icon/tiktok.png)
+## &emsp;&emsp;![tiktok版本](https://raw.githubusercontent.com/ssooenftzero/0X/master/Tube/icon/tiktok.png)
 
 # -----------------------------------------------------------
 
