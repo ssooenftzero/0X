@@ -1,5 +1,3 @@
-#
-
 # 写在前面
 
 ## &emsp;联系方式：  
@@ -8,7 +6,6 @@
 
 ## &emsp;&emsp;<u>[YouTube](https://www.youtube.com/channel/UCS6QM2n96qXmqURNikf3ceA?view_as=subscriber)</u>
 ==============================================		
-#
 
 # iOS看国际版抖音TikTok进阶版教程
 
