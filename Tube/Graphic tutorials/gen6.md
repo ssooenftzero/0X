@@ -1,5 +1,3 @@
-#
-
 # 写在前面
 
 ## &emsp;联系方式：  
@@ -8,7 +6,6 @@
 
 ## &emsp;&emsp;<u>[YouTube](https://www.youtube.com/channel/UCS6QM2n96qXmqURNikf3ceA?view_as=subscriber)</u>
 ==============================================		
-#
 
 # iOS 使用解锁 TikTok （国际版）区域限制【QuantumultX 篇】
 
@@ -96,7 +93,7 @@ hostname = api*.tiktokv.com, api*.musical.ly, api*.amemv.com, aweme*.snssdk.com
 ## &emsp;&emsp;2.开启 Rewrite & MinM ；
 
 # -----------------------------------------------------------
- 
+
 # QuantumultX Tiktok 换区操作
 
 # 如想切换到其他地区，进入QuantumultX，点击页面右下角三菱按钮，找到Rewrite模块，点击添加，复制
