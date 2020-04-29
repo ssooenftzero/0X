@@ -51,44 +51,44 @@ cfw-child-process: []
 # Will be ignored after profile selection
 Proxy:
 #Shadowsocks
-- name: "你的SS节点1"               # 软件显示的节点名字
-  type: ss                                  # 代理类型
-  server: 1.2.4.8                          # 服务器IP
-  port: 443                                 #  端口号
-  cipher: chacha20-ietf-poly1305   # 加密方法
-  password: "password"                # SS密码
-  # udp: true                                #默认不开启
-- name: "你的SS节点2"
-  type: ss
-  server: 1.2.4.8
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: "password"
-  plugin: obfs
-  plugin-opts:                 
+  - name: "你的SS节点1"               # 软件显示的节点名字
+    type: ss                                  # 代理类型
+    server: 1.2.4.8                          # 服务器IP
+    port: 443                                 #  端口号
+    cipher: chacha20-ietf-poly1305   # 加密方法
+    password: "password"                # SS密码
+    # udp: true                                #默认不开启
+   - name: "你的SS节点2"
+    type: ss
+    server: 1.2.4.8
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: "password"
+    plugin: obfs
+    plugin-opts:                 
     mode: tls # or http               #  大部分选择HTTP
     # host: bing.com                  #  伪装
     
 #v2ray
-- name: "你的V2RAY节点1" # 软件显示的节点名字
-  type: vmess # 代理类型
-  server: 152.32.13.91  # 服务器IP
-  port: 443 #  端口号
-  uuid: a3482e88-686a-4a58-8126-99c9df64b7bf
-  alterId: 64  #额外的ID
-  cipher: auto
-  #上面几行为必选参数
-  #下面几行为可选参数  根据你的配置情况来
-  # udp: true    #默认不开启
-  # tls: true      #TLS开启
-  # skip-cert-verify: true     #默认不开启
-  # network: ws    # 网路类型 WS HTTP等
-  # ws-path: /path  # 路径
-  # ws-headers:     #默认不开启
-  #  Host: v2rayssr.com    # HOST
+  - name: "你的V2RAY节点1" # 软件显示的节点名字
+    type: vmess # 代理类型
+    server: 152.32.13.91  # 服务器IP
+    port: 443 #  端口号
+    uuid: a3482e88-686a-4a58-8126-99c9df64b7bf
+    alterId: 64  #额外的ID
+    cipher: auto
+    #上面几行为必选参数
+    #下面几行为可选参数  根据你的配置情况来
+    # udp: true    #默认不开启
+    # tls: true      #TLS开启
+    # skip-cert-verify: true     #默认不开启
+    # network: ws    # 网路类型 WS HTTP等
+    # ws-path: /path  # 路径
+    # ws-headers:     #默认不开启
+    #  Host: v2rayssr.com    # HOST
   
 #Trojan
-- name: "Trojan节点"
+  - name: "Trojan节点"
     type: trojan
     server: server
     port: 443
