@@ -4,6 +4,7 @@ log-level: info
 external-controller: 127.0.0.1:9090
 secret: ""
 ipv6: true
+# 单节点处
 proxies:
   # Shadowsocks(Websocket + TLS)
   - name: "ss单节点模板"
@@ -65,6 +66,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+# 机场订阅节点处
 proxy-providers:
   jcdydemo-Sub:
     type: http
@@ -75,6 +77,7 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
+# 策略组处
 proxy-groups:
   - name: ✈️jcdydemo
     type: select
@@ -119,6 +122,7 @@ proxy-groups:
       - DIRECT
       - REJECT
     type: select
+# 分流策略处
 rules:
   - DOMAIN,suda.cat,🌎Google类访问
   - DOMAIN,raw.githubusercontent.com,🌎Google类访问
