@@ -4,6 +4,7 @@ log-level: info
 external-controller: 127.0.0.1:9090
 secret: ""
 ipv6: true
+
 proxies:
   # Shadowsocks(Websocket + TLS)
   - name: "ss单节点模板"
@@ -65,7 +66,23 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+
+proxy-providers:
+  jcdydemo-Sub: # 冲鸭机场订阅链接
+    type: http
+    url: "https://duckduckgo.security/user/sub.php?token=DivineEngine"
+    interval: 3600
+    path: ./Proxy/jcdydemo.yaml # 不同机场不同命名
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
 proxy-groups:
+  - name: ✈️jcdydemo
+    type: select
+    use:
+      - jcdydemo-Sub
   - name: ♻️自动选择
     proxies:
       - GCP
