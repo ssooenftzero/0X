@@ -19,44 +19,34 @@ proxies:
     tls: false
     network: tcp
 proxy-groups:
+  - name: Google类
+    proxies:
+      - GCP
+    type: select
+  - name: YouTube类
+    proxies:
+      - GCP
+    type: select
+  - name: NETFLIX原生类
+    proxies:
+      - GCP
+    type: select
   - name: Proxy
     type: select
     proxies:
       - GCP
-rule-providers:
-  Unbreak:
-    type: http
-    behavior: classical
-    path: ./RuleSet/Unbreak.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
-    interval: 86400
-  Streaming:
-    type: http
-    behavior: classical
-    path: ./RuleSet/StreamingMedia/Streaming.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
-    interval: 86400
-  StreamingSE:
-    type: http
-    behavior: classical
-    path: ./RuleSet/StreamingMedia/StreamingSE.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingSE.yaml
-    interval: 86400
-  Global:
-    type: http
-    behavior: classical
-    path: ./RuleSet/Global.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
-    interval: 86400
-  China:
-    type: http
-    behavior: classical
-    path: ./RuleSet/China.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
-    interval: 86400
-  ChinaIP:
-    type: http
-    behavior: ipcidr
-    path: ./RuleSet/Extra/ChinaIP.yaml
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
-    interval: 86400
+      - DIRECT
+      - DIRECT
+rules:
+  - DOMAIN-SUFFIX,duyaoss.com,Google类
+  - DOMAIN-KEYWORD,v2ray,Google类
+  - DOMAIN-SUFFIX,v2rayssr.com,Google类
+  - DOMAIN-KEYWORD,fanqiang,Google类
+  - DOMAIN-SUFFIX,cloudflare.com,Google类
+  - DOMAIN-SUFFIX,limbopro.xyz,Google类
+  - DOMAIN-SUFFIX,github.io,Google类
+  - DOMAIN-SUFFIX,github.com,Google类
+  - DOMAIN-KEYWORD,翻墙,Google类
+  - DOMAIN-SUFFIX,netflix.com,NETFLIX原生类
+  - DOMAIN-SUFFIX,youtube.com,YouTube类
+  - DOMAIN-SUFFIX,google.com,Google类
