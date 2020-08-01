@@ -38,6 +38,7 @@ proxy-groups:
       - DIRECT
       - DIRECT
 rules:
+  - DOMAIN,raw.githubusercontent.com,Google类
   - DOMAIN-SUFFIX,duyaoss.com,Google类
   - DOMAIN-KEYWORD,v2ray,Google类
   - DOMAIN-SUFFIX,v2rayssr.com,Google类
