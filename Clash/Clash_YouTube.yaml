@@ -89,13 +89,13 @@ proxy-groups:
     interval: 600
   - name: 🌎Google类访问
     proxies:
-      - ✈️jcdydemo
       - ♻️自动选择
+      - ✈️jcdydemo
     type: select
   - name: 🎬YouTube类访问
     proxies:
-      - ✈️jcdydemo
       - ♻️自动选择
+      - ✈️jcdydemo
     type: select
   - name: 🖥𝐍𝐞𝐭𝐟𝐥𝐢𝐱原生类访问
     proxies:
@@ -104,14 +104,14 @@ proxy-groups:
     type: select
   - name: Ⓜ️微软服务
     proxies:
-      - ✈️jcdydemo
       - ♻️自动选择
+      - ✈️jcdydemo
     type: select
     _index: 4
   - name: 🍎苹果服务
     proxies:
-      - ✈️jcdydemo
       - ♻️自动选择
+      - ✈️jcdydemo
     type: select
   - name: 🔰Proxy
     proxies:
