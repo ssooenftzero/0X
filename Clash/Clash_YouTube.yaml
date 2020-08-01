@@ -4,7 +4,6 @@ log-level: info
 external-controller: 127.0.0.1:9090
 secret: ""
 ipv6: true
-
 proxies:
   # Shadowsocks(Websocket + TLS)
   - name: "ss单节点模板"
@@ -66,18 +65,16 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-
 proxy-providers:
-  jcdydemo-Sub: # 冲鸭机场订阅链接
+  jcdydemo-Sub:
     type: http
-    url: "https://duckduckgo.security/user/sub.php?token=DivineEngine"
+    url: https://duckduckgo.security/user/sub.php?token=DivineEngine
     interval: 3600
-    path: ./Proxy/jcdydemo.yaml # 不同机场不同命名
+    path: ./Proxy/jcdydemo.yaml
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-
 proxy-groups:
   - name: ✈️jcdydemo
     type: select
@@ -85,33 +82,40 @@ proxy-groups:
       - jcdydemo-Sub
   - name: ♻️自动选择
     proxies:
+      - ✈️jcdydemo
       - GCP
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: 🌎Google类访问
     proxies:
+      - ✈️jcdydemo
       - ♻️自动选择
     type: select
   - name: 🎬YouTube类访问
     proxies:
+      - ✈️jcdydemo
       - ♻️自动选择
     type: select
   - name: 🖥𝐍𝐞𝐭𝐟𝐥𝐢𝐱原生类访问
     proxies:
+      - ✈️jcdydemo
       - socks5
     type: select
   - name: Ⓜ️微软服务
     proxies:
+      - ✈️jcdydemo
       - ♻️自动选择
     type: select
     _index: 4
   - name: 🍎苹果服务
     proxies:
+      - ✈️jcdydemo
       - ♻️自动选择
     type: select
   - name: 🔰Proxy
     proxies:
+      - ✈️jcdydemo
       - DIRECT
       - REJECT
     type: select
