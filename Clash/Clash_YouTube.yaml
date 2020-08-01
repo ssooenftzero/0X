@@ -1,11 +1,58 @@
 mixed-port: 7890
-allow-lan: false
+allow-lan: true
 log-level: info
 external-controller: 127.0.0.1:9090
 secret: ""
-ipv6: false
+ipv6: true
 proxies:
-  - name: Shadowsocks
+  # Shadowsocks(Websocket + TLS)
+  - name: "ss单节点模板"
+    type: ss
+    server: server
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: "password"
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket # no QUIC now
+      tls: true # wss
+      # skip-cert-verify: true
+      # host: bing.com
+      path: "/s"
+      # mux: true
+      # headers:
+      #   custom: value
+
+  # VMess(Websocket + TLS)
+  - name: "v2ray单节点模板"
+    type: vmess
+    server: v2ray.cool
+    port: 443
+    uuid: a3482e88-686a-4a58-8126-99c9df64b7bf
+    alterId: 32
+    cipher: auto
+    # udp: true
+    tls: true
+    # skip-cert-verify: true
+    network: ws
+    ws-path: /v
+    # ws-headers:
+    #   Host: v2ray.com
+
+  # Trojan
+  - name: "Trojan单节点模板"
+    type: trojan
+    server: server
+    port: 443
+    password: yourpsk
+    # udp: true
+    # sni: example.com # aka server name
+    # alpn:
+    #   - h2
+    #   - http/1.1
+    # skip-cert-verify: true
+    
+  - name: socks5
     type: socks5
     server: 127.0.0.1
     port: 1080
@@ -35,7 +82,7 @@ proxy-groups:
     type: select
   - name: 🖥𝐍𝐞𝐭𝐟𝐥𝐢𝐱原生类访问
     proxies:
-      - Shadowsocks
+      - socks5
     type: select
   - name: Ⓜ️微软服务
     proxies:
