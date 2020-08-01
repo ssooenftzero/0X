@@ -19,35 +19,183 @@ proxies:
     tls: false
     network: tcp
 proxy-groups:
-  - name: Google类
+  - name: ♻️自动选择
     proxies:
       - GCP
-    type: select
-  - name: YouTube类
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: 🌎Google类
     proxies:
-      - GCP
+      - ♻️自动选择
     type: select
-  - name: NETFLIX原生类
+  - name: 🎬YouTube类
     proxies:
-      - GCP
+      - ♻️自动选择
     type: select
-  - name: Proxy
-    type: select
+  - name: 🖥𝐍𝐞𝐭𝐟𝐥𝐢𝐱原生类
     proxies:
-      - GCP
+      - Shadowsocks
+    type: select
+  - name: Ⓜ️微软服务
+    proxies:
+      - ♻️自动选择
+    type: select
+  - name: 🍎苹果服务
+    proxies:
+      - ♻️自动选择
+    type: select
+  - name: 🔰Proxy
+    proxies:
       - DIRECT
-      - DIRECT
+      - REJECT
+    type: select
 rules:
-  - DOMAIN,raw.githubusercontent.com,Google类
-  - DOMAIN-SUFFIX,duyaoss.com,Google类
-  - DOMAIN-KEYWORD,v2ray,Google类
-  - DOMAIN-SUFFIX,v2rayssr.com,Google类
-  - DOMAIN-KEYWORD,fanqiang,Google类
-  - DOMAIN-SUFFIX,cloudflare.com,Google类
-  - DOMAIN-SUFFIX,limbopro.xyz,Google类
-  - DOMAIN-SUFFIX,github.io,Google类
-  - DOMAIN-SUFFIX,github.com,Google类
-  - DOMAIN-KEYWORD,翻墙,Google类
-  - DOMAIN-SUFFIX,netflix.com,NETFLIX原生类
-  - DOMAIN-SUFFIX,youtube.com,YouTube类
-  - DOMAIN-SUFFIX,google.com,Google类
+  - DOMAIN,suda.cat,🌎Google类
+  - DOMAIN,raw.githubusercontent.com,🌎Google类
+  - DOMAIN-SUFFIX,duyaoss.com,🌎Google类
+  - DOMAIN-KEYWORD,v2ray,🌎Google类
+  - DOMAIN-SUFFIX,v2rayssr.com,🌎Google类
+  - DOMAIN-KEYWORD,fanqiang,🌎Google类
+  - DOMAIN-SUFFIX,cloudflare.com,🌎Google类
+  - DOMAIN-SUFFIX,limbopro.xyz,🌎Google类
+  - DOMAIN-SUFFIX,github.io,🌎Google类
+  - DOMAIN-SUFFIX,github.com,🌎Google类
+  - DOMAIN-KEYWORD,翻墙,🌎Google类
+  - DOMAIN-SUFFIX,netflix.com,🖥𝐍𝐞𝐭𝐟𝐥𝐢𝐱原生类
+  - DOMAIN-SUFFIX,youtube.com,🎬YouTube类
+  - DOMAIN-SUFFIX,google.com,🌎Google类
+mixed-port: 7890
+allow-lan: false
+log-level: info
+external-controller: 127.0.0.1:9090
+secret: ""
+ipv6: false
+proxies:
+  - name: Shadowsocks
+    type: socks5
+    server: 127.0.0.1
+    port: 1080
+  - name: GCP
+    type: vmess
+    server: 34.80.193.187
+    port: 46231
+    uuid: 5d7b14ed-b1fb-4540-8154-481eca86c690
+    alterId: 233
+    cipher: auto
+    tls: false
+    network: tcp
+proxy-groups:
+  - name: ♻️自动选择
+    proxies:
+      - GCP
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: 🌎Google类
+    proxies:
+      - ♻️自动选择
+    type: select
+  - name: 🎬YouTube类
+    proxies:
+      - ♻️自动选择
+    type: select
+  - name: 🖥𝐍𝐞𝐭𝐟𝐥𝐢𝐱原生类
+    proxies:
+      - Shadowsocks
+    type: select
+  - name: Ⓜ️微软服务
+    proxies:
+      - ♻️自动选择
+    type: select
+  - name: 🍎苹果服务
+    proxies:
+      - ♻️自动选择
+    type: select
+  - name: 🔰Proxy
+    proxies:
+      - DIRECT
+      - REJECT
+    type: select
+rules:
+  - DOMAIN,suda.cat,🌎Google类
+  - DOMAIN,raw.githubusercontent.com,🌎Google类
+  - DOMAIN-SUFFIX,duyaoss.com,🌎Google类
+  - DOMAIN-KEYWORD,v2ray,🌎Google类
+  - DOMAIN-SUFFIX,v2rayssr.com,🌎Google类
+  - DOMAIN-KEYWORD,fanqiang,🌎Google类
+  - DOMAIN-SUFFIX,cloudflare.com,🌎Google类
+  - DOMAIN-SUFFIX,limbopro.xyz,🌎Google类
+  - DOMAIN-SUFFIX,github.io,🌎Google类
+  - DOMAIN-SUFFIX,github.com,🌎Google类
+  - DOMAIN-KEYWORD,翻墙,🌎Google类
+  - DOMAIN-SUFFIX,netflix.com,🖥𝐍𝐞𝐭𝐟𝐥𝐢𝐱原生类
+  - DOMAIN-SUFFIX,youtube.com,🎬YouTube类
+  - DOMAIN-SUFFIX,google.com,🌎Google类
+mixed-port: 7890
+allow-lan: false
+log-level: info
+external-controller: 127.0.0.1:9090
+secret: ""
+ipv6: false
+proxies:
+  - name: Shadowsocks
+    type: socks5
+    server: 127.0.0.1
+    port: 1080
+  - name: GCP
+    type: vmess
+    server: 34.80.193.187
+    port: 46231
+    uuid: 5d7b14ed-b1fb-4540-8154-481eca86c690
+    alterId: 233
+    cipher: auto
+    tls: false
+    network: tcp
+proxy-groups:
+  - name: ♻️自动选择
+    proxies:
+      - GCP
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: 🌎Google类
+    proxies:
+      - ♻️自动选择
+    type: select
+  - name: 🎬YouTube类
+    proxies:
+      - ♻️自动选择
+    type: select
+  - name: 🖥𝐍𝐞𝐭𝐟𝐥𝐢𝐱原生类
+    proxies:
+      - Shadowsocks
+    type: select
+  - name: Ⓜ️微软服务
+    proxies:
+      - ♻️自动选择
+    type: select
+  - name: 🍎苹果服务
+    proxies:
+      - ♻️自动选择
+    type: select
+  - name: 🔰Proxy
+    proxies:
+      - DIRECT
+      - REJECT
+    type: select
+rules:
+  - DOMAIN,suda.cat,🌎Google类
+  - DOMAIN,raw.githubusercontent.com,🌎Google类
+  - DOMAIN-SUFFIX,duyaoss.com,🌎Google类
+  - DOMAIN-KEYWORD,v2ray,🌎Google类
+  - DOMAIN-SUFFIX,v2rayssr.com,🌎Google类
+  - DOMAIN-KEYWORD,fanqiang,🌎Google类
+  - DOMAIN-SUFFIX,cloudflare.com,🌎Google类
+  - DOMAIN-SUFFIX,limbopro.xyz,🌎Google类
+  - DOMAIN-SUFFIX,github.io,🌎Google类
+  - DOMAIN-SUFFIX,github.com,🌎Google类
+  - DOMAIN-KEYWORD,翻墙,🌎Google类
+  - DOMAIN-SUFFIX,netflix.com,🖥𝐍𝐞𝐭𝐟𝐥𝐢𝐱原生类
+  - DOMAIN-SUFFIX,youtube.com,🎬YouTube类
+  - DOMAIN-SUFFIX,google.com,🌎Google类
