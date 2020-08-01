@@ -31,6 +31,7 @@ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
+      - ♻️ 自动选择
       - ✈️机场订阅demo
   - name: ♻️ 自动选择
     type: url-test
@@ -67,6 +68,7 @@ proxy-groups:
   - name: 🎯 全球直连
     type: select
     proxies:
+      - DIRECT
       - ♻️ 自动选择
       - ✈️机场订阅demo
   - name: 🛑 全球拦截
