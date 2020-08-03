@@ -1,6 +1,6 @@
 port: 7890
 socks-port: 7891
-allow-lan: true
+allow-lan: false
 mode: Rule
 log-level: info
 external-controller: :9090
@@ -15,14 +15,20 @@ dns:
    listen: 0.0.0.0:53
    nameserver:
       - 223.5.5.5
-interface-name: WLAN
+interface-name: 以太网
 # 公共属性设置
 mixin: 
    dns:
      enable: true
      listen: :53
      nameserver:
+       - 223.5.5.5
+       - 101.6.6.6
+       - 119.29.29.29
        - 8.8.8.8
+       - 114.114.114.114
+       - 8.8.4.4
+       - 1.1.1.1
 proxies:
   - name: gcp
     server: 34.89.3.87
