@@ -4,10 +4,29 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
+# 绕过系统代理
+bypass:
+   - "example.com"
+   - 127.0.0.1  
+# tap真全局模式
+dns:
+   enable: false
+   enhanced-mode: redir-host
+   listen: 0.0.0.0:53
+   nameserver:
+      - 223.5.5.5
+interface-name: WLAN
+# 公共属性设置
+mixin: 
+   dns:
+     enable: true
+     listen: :53
+     nameserver:
+       - 8.8.8.8
 proxies:
   - name: gcp
-    server: 34.80.193.187
-    port: 46231
+    server: 34.89.3.87
+    port: 4623
     type: vmess
     uuid: 5d7b14ed-b1fb-4540-8154-481eca86c690
     alterId: 233
