@@ -31,8 +31,8 @@ mixin:
        - 1.1.1.1
 proxies:
   - name: gcp
-    server: 34.89.3.87
-    port: 4623
+    server: 34.80.193.187
+    port: 46231
     type: vmess
     uuid: 5d7b14ed-b1fb-4540-8154-481eca86c690
     alterId: 233
@@ -41,7 +41,7 @@ proxies:
 proxy-providers:
   jcdydemo-Sub:
     type: http
-    url: https://duckduckgo.security/user/sub.php?token=DivineEngine
+    url: https://api.wcc.best/sub?target=clash&url=https%3A%2F%2Fwww.cssr.vip%2Flink%2F35oL3ZMJYqzK95Oh%3Fmu%3D2&insert=false&emoji=false&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true
     interval: 3600
     path: ./Proxy/jcdydemo.yaml
     health-check:
