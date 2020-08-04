@@ -1,7 +1,5 @@
-# -----------
+### [资源网](https://www.tsingsea.com/)
 
-## [MIT License](https://github.com/ssooenftzero/0X/raw/master/LICENSE)
+### [视频教程](https://www.youtube.com/channel/UCS6QM2n96qXmqURNikf3ceA?sub_confirmation=1)
 
-## [微信公众号](https://raw.githubusercontent.com/ssooenftzero/0X/master/YouTube/icon/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.JPG)
-
-# -----------
+### [关注微信公众号获得更多精彩内容](https://cdn.jsdelivr.net/gh/ssooenftzero/static.tsingsea.com/wp-content/uploads/2020/07/wxgzh2wm.webp)
