@@ -1,6 +1,6 @@
 port: 7890
 socks-port: 7891
-allow-lan: false
+allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
@@ -10,7 +10,7 @@ bypass:
    - 127.0.0.1  
 # tap真全局模式
 dns:
-   enable: false
+   enable: true
    enhanced-mode: redir-host
    listen: 0.0.0.0:53
    nameserver:
@@ -41,7 +41,7 @@ proxies:
 proxy-providers:
   jcdydemo-Sub:
     type: http
-    url: https://api.wcc.best/sub?target=clash&url=https%3A%2F%2Fwww.cssr.vip%2Flink%2F35oL3ZMJYqzK95Oh%3Fmu%3D2&insert=false&emoji=false&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true
+    url: https://api.wcc.best/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fssrsub%2Fssr%2Fmaster%2Fv2ray&insert=false&emoji=false&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true
     interval: 3600
     path: ./Proxy/jcdydemo.yaml
     health-check:
